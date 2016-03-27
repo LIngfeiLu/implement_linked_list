@@ -1,0 +1,76 @@
+ID:cs12snm
+PID:A99070381
+NAME: Zhiyu Mao
+ 
+
+ EXPLANATIONO OF VARIOUS TESTER
+1.testBooleanAdd()
+Test if successfully added to the END position
+and test if not successfully added to the LAST position.
+
+2.testAdd()
+test if the method is right when add an element to the beginning, end, middle of the list.
+
+3.testRemove()
+test to the remove the first, middle, and last element of the list.
+
+4.testEmpty()
+let three different lists empty and test if the method is processing correctly.
+
+5.testClear()
+test after clear the lists, if the size of the lists is empty. 
+
+6.testGetException()
+test if the lists will throw exception if there is no such index.
+
+7.testIterator()
+Test iterator on empty list and several list
+
+8.testValidAddIterator()
+test the add method defined in iterator.
+
+9.testInvalidAddIterator()
+test the index or data is wrong, if the method will throw exception
+
+10.testValidSetIterator()
+test if set method is right when the input is right, if wrong throw exception.
+
+11.	testIteratorFibonacci()
+Test if the iterator is right defined when we implement the Fibonacci list
+12.	testSet()
+check if the set method is right when we set different values to the lists.
+13.	testValidRemoveIterator()
+test the remove method of iterator
+
+14.	testIteratorNext()
+test the next iterator of iterator
+
+15.	testIteratorInvalidNext()
+test if the index is nonexisted, will method throw exception or not
+
+16.	testIteratorHasNext()
+test the hasNext method
+
+17.	testIteratorPrevious()
+test previous method 
+
+18.	testIteratorInvalidPrevious()
+test previous method when something wrong and need an exception
+
+19.	testIteratorHasPrevious()
+test if the hadPrevious method is correct
+
+20.	testIteratorNextIndex()
+test if the nextIndext method works correctly
+
+21.	testIteratorPreviousIndex()
+test if the previousIndex is right when in a list.
+
+KNOWN PROBLEMS OR ASSUMPTIONS
+
+I print out the head when my get(int index) returns the wrong node and this makes the index probelm and assign head the index 0. This problem took me 11 hours to solve, really a hard time for me. I asked three tutors and posted two posts on Piazza but none of the answers were related to the ralationship between the get(int index) and add(int index, E data). And also, because of this, I found if I increase the nelems to nelems+1, the system will print out one more node.
+Hard but really happy time with this long homework. lol.
+
+
+
+
